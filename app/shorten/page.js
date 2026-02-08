@@ -42,7 +42,7 @@ const page = () => {
       return;
     }
     if (res.success == true) {
-      setgenerated(`${process.env.NEXT_PUBLIC_URL}/${shorturl}`);
+      setgenerated(`${process.env.NEXT_PUBLIC_BASE_URL}/${shorturl}`);
       alert("Link generated successfully");
       seturl("");
       setshorturl("");
@@ -53,7 +53,7 @@ const page = () => {
     // })
     // .then((result) => {
     //   result.json()
-    //   setgenerated(`${process.env.NEXT_PUBLIC_URL}/${shorturl}`);
+    //   setgenerated(`${process.env.NEXT_PUBLIC_BASE_URL}/${shorturl}`);
     //   alert(result);
     // })
     // .catch((error) => {

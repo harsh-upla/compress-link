@@ -15,7 +15,7 @@ export default async function Page({ params }) {
     redirect(`${s.url}`)
   }
   else{
-    redirect(`${process.env.NEXT_PUBLIC_URL}`)
+    redirect(`${process.env.NEXT_PUBLIC_BASE_URL}`)
   }
   return (
     <>
