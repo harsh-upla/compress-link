@@ -1,5 +1,5 @@
 import "./globals.css";
-import Navbar from "@/componrnts/Navbar";
+import Navbar from "@/components/Navbar";
 import localFont from 'next/font/local'
  
 const myFont = localFont({
